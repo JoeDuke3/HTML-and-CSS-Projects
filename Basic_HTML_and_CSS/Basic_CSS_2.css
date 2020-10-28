@@ -1,0 +1,36 @@
+header {
+	color: #999999;
+	font-size: 75px;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px;
+}
+body {
+	background-color: #333333;
+}
+h1 {
+	background-color: #999999;
+	text-align: center;
+	font-size: 30px;
+	font-weight: lighter;
+	border: 3px solid black;
+	text-shadow: 1px 2px #666666;
+}
+h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #cccccc;
+}
+.ducks {
+	background-color: #66ff00;
+	color: #ffdd00;
+}
+.badgers {
+	background-color: #ff0000;
+	color: #ffffff;
+}
+.team {
+	border: 5px solid #cccccc;
+	padding: 30px;
+	margin: 20px;
+}

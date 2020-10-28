@@ -1,0 +1,21 @@
+body {
+	background-color: #666666;
+	color: #aaaaaa;
+	text-align: center;
+}
+table {
+	border: 3px solid #999999;
+	width: 100%;
+}
+td:hover {
+	background-color: #dddddd;
+	color: #333333;
+}
+tr, th {
+	background-color: #000000;
+	color: #ffffff;
+}
+tr, td {
+	background-color: #333333;
+	color: #dddddd;
+}

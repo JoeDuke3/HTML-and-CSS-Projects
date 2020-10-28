@@ -1,0 +1,10 @@
+body {
+	background-color: #333333;
+	color: #dddddd;
+}
+ul {
+	list-style-type: circle;
+}
+ol {
+	list-style-type: hebrew;
+}
