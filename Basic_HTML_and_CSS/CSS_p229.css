@@ -1,0 +1,47 @@
+body {
+	background-color: #333333;
+	color: #cccccc;
+}
+header span {
+	border: hidden;
+	box-shadow: 5px 5px #6600ff;
+	border-radius: 25px;
+	padding: 1rem;
+	margin-left: 5rem;
+}
+a {
+	color: #ff0066;
+	padding: 1rem;
+}
+article h1 span {
+	background-color: #cccccc;
+	color: #333333;
+	border: hidden;
+	box-shadow: 3px 3px #000000;
+	border-radius: 25px;
+	padding: 1rem;
+}
+article {
+	margin: 3rem;
+}
+summary span {
+	border: hidden;
+	box-shadow: 1px 1px #00ffff;
+	border-radius: 25px;
+	padding: 1rem;
+	margin: 3rem;
+}
+details {
+	margin: 3rem;
+}
+footer span{
+	border: hidden;
+	box-shadow: 1px 1px #000000;
+	border-radius: 25px;
+	padding: 1rem;
+}
+footer p {
+	color: #000000;
+	font-size: 15px;
+	text-align: center;
+}

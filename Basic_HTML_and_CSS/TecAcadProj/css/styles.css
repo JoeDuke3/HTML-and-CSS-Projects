@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: rgba(3,3,3,.7);
+	color: #cccccc;
+}
+img {
+	max-height: 95%;
+}
+.imageSize {
+	height: 200px;
+	width: auto;
+}
+.goto {
+	color: rgba(0,f,f,.5);
+}

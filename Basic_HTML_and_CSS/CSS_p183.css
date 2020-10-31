@@ -1,0 +1,68 @@
+body {
+	background-color: #333333;
+	color: #cccccc;
+}
+header, footer, div {
+	background-color: #cccccc;
+	color: #333333;
+	text-align: center;
+	border: 10px solid #999999;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #000000;
+}
+h1 {
+	font-size: 75px;
+}
+h2 {
+	font-size: 35px;
+	color: #ff0000;
+	text-shadow: 1px 1px #ff9900;
+}
+.poem {
+	font-size: 50px;
+	border: 3px solid #00ffff;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #6600ff;
+	text-shadow: 1px 1px #ffffff;
+}
+.form {
+	background-color: #cccccc;
+	color: #333333;
+	font-size: 30px;
+	border: 3px solid #ff0000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #ff9900;
+	text-shadow: 1px 1px #ffffff;
+	padding: 15px;
+	margin: 50px;
+}
+input {
+	background-color: #ff0000;
+	color: #ffff00;
+	border: 3px solid #333333;
+	box-shadow: 3px 3px 3px #ff9900;
+	padding: 5px;
+	margin: 25px;
+}
+.poemInput {
+	width: 300px;
+}
+.red_text {
+	color: #ff0000;
+	text-shadow: 2px 2px #000000;
+}
+.blue_text {
+	color: #0000ff;
+	text-shadow: 2px 2px #000000;
+}
+.amber_text {
+	color: #ff9900;
+	text-shadow: 2px 2px #000000;
+}
+.dumbpoem {
+	color: #6600ff;
+	text-shadow: 3px 3px 10px #00ffff;
+}
+.copyright {
+	font-size: 25;
+}
