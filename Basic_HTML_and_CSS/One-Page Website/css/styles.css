@@ -1,0 +1,31 @@
+html {
+	background-color: #333333;
+	color: #cccccc;
+}
+
+.nav {
+	background-color: #ff9900;
+}
+
+.intro {
+	background-color: #cccccc;
+	color: #333333;
+	text-align: center;
+	font-size: xx-large;
+}
+
+img {
+	height: auto;
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.homeImg {
+	border-radius: 33%;
+	max-width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
