@@ -1,7 +1,9 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     GALLERY SECTION ANIMATION
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
+:root {
+    box-sizing: border-box;
+} 
 p {
     font-weight: 300;
     line-height: 30px;
@@ -9,28 +11,32 @@ p {
 }
 
 .photo {
-    position: relative;
-    line-height: 0;
-    margin-bottom: 2em;
+    max-width: min-content;  
+    /* max-height: fit-content; */
+    position: relative;    
     overflow: hidden;
+    margin-bottom: 2em;
     border-radius: 8px;
     padding: 1px;
     border: 1px solid #021a40;
     background-color: #ff0;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    border: 5px red solid;
 }
 
 .photo-container {
+    /* max-height: 100px;
+    max-width: 33%; */
     text-align: center;
     margin: 15px auto;
-    width: 300px;
-    height: 169px;
+    width: 3oopx;
+    /* height: 169; */
 }
 
-.photo-container-image {
+.photo-container img {
     max-width: 100%;
-    width: 300px;
-    height: 169px;
+    /* width: 300px; */
+    /* height: 169px; */
 }
 
 .photo-overlay {
@@ -70,21 +76,15 @@ background:rgba(0,0,0,.5);
     color: #fff;    
 }
 
-.phot-overlay:hover {
-    opacity:1;
+.photo-overlay:hover {
+    opacity: 1;
 }
 
-photo.img {
+.photo img {
     transition: transform;
     transform-origin: 50% 50%;
 }
 
-photo.hover img {
-    transform: scale(1,1)
+.photo.hover img {
+    transform: scale(1,1);
 }
-
-
-
-
-
-
