@@ -1,7 +1,5 @@
 body {
-    background-color: #333333;
-    color: #cccccc;
-}
+    background-color: #333333;}
 
 h1 {
     color: rgba(8, 141, 165, 1);
@@ -22,6 +20,7 @@ h1 {
 -------------------------------------------------------------- */
 
 .container .squares:nth-child(-n+4) {
+    background-image: url("../images/icons/smileyface2.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -112,12 +111,3 @@ text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
         transform: translateY(330px);
     }
 }
-
-
-
-
-
-
-
-
-
