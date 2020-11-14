@@ -1,21 +1,91 @@
 body {
-	background-color: #666666;
-	color: #aaaaaa;
+	background-color: #996;
 	text-align: center;
 }
+
+body:hover {
+	background-color: #669;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+}
+
+h1, .fact {
+	display: inline-block;
+	font-family: monospace, sans-serif;
+	font-size: 3rem;
+	font-weight: 666;
+	text-shadow: 3px 3px #333;
+	background-color: #f0f;
+	color: #0ff;
+	padding: .5rem 2rem;
+	margin: 1rem;
+	border: 5px solid #333;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px #ff0;
+}
+
+h1:hover {
+	background-color: #ff0;
+	color: #f0f;
+	box-shadow: 5px 5px 15px #0ff;
+}
+
+.fact:hover {
+	background-color: #0ff;
+	color: #ff0;
+	box-shadow: 5px 5px 15px #f0f;
+}
+
 table {
-	border: 3px solid #999999;
-	width: 100%;
+	width: 80%;
+	margin: 1rem auto;
+	border: 5px solid #333;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px #0fc;
+	background-color: #60f;
 }
+
+table:hover {
+	background-color: #f06;
+	box-shadow: 5px 5px 5px #cf0;
+}
+
+th, td {
+	color: #0ff;
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: .5rem;
+}
+
+table, th, td {
+	border: 3px solid #999;
+}
+
+
+th {
+	background-color: #600;
+	color: #0ff;
+}
+
+th:hover {
+	background-color: #0ff;
+	color: #600;
+	
+}
+
+td {
+	background-color: #060;
+	color: #f90;
+}
+
 td:hover {
-	background-color: #dddddd;
-	color: #333333;
-}
-tr, th {
-	background-color: #000000;
-	color: #ffffff;
-}
-tr, td {
-	background-color: #333333;
-	color: #dddddd;
+	background-color: #f90;
+	color: #060;
 }
